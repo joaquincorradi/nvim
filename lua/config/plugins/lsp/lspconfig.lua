@@ -43,6 +43,7 @@ lspconfig["bashls"].setup({
 lspconfig["clangd"].setup({
 	capabilities = capabilities,
 	on_attach = on_attach,
+	offsetEncoding = { "utf-8", "utf-16" },
 })
 
 lspconfig["cmake"].setup({

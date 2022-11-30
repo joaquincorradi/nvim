@@ -39,7 +39,6 @@ mason_null_ls.setup({
 	ensure_installed = {
 		"stylua", -- lua formatter
 		"cpplint",
-		"clang_format",
 		"prettier",
 		"shellcheck",
 		"taplo",
