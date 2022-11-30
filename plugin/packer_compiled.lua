@@ -104,6 +104,11 @@ _G.packer_plugins = {
     path = "/home/joaquin/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["dracula.nvim"] = {
+    loaded = true,
+    path = "/home/joaquin/.local/share/nvim/site/pack/packer/start/dracula.nvim",
+    url = "https://github.com/Mofiqul/dracula.nvim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/home/joaquin/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -118,6 +123,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/joaquin/.local/share/nvim/site/pack/packer/start/gruvbox",
     url = "https://github.com/morhetz/gruvbox"
+  },
+  ["impatient.nvim"] = {
+    loaded = true,
+    path = "/home/joaquin/.local/share/nvim/site/pack/packer/start/impatient.nvim",
+    url = "https://github.com/lewis6991/impatient.nvim"
   },
   ["lspkind.nvim"] = {
     loaded = true,
@@ -149,6 +159,11 @@ _G.packer_plugins = {
     path = "/home/joaquin/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  ["neoscroll.nvim"] = {
+    loaded = true,
+    path = "/home/joaquin/.local/share/nvim/site/pack/packer/start/neoscroll.nvim",
+    url = "https://github.com/karb94/neoscroll.nvim"
+  },
   ["null-ls.nvim"] = {
     loaded = true,
     path = "/home/joaquin/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
@@ -163,6 +178,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/joaquin/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
+  },
+  ["nvim-colorizer.lua"] = {
+    loaded = true,
+    path = "/home/joaquin/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua",
+    url = "https://github.com/norcalli/nvim-colorizer.lua"
+  },
+  ["nvim-cursorline"] = {
+    loaded = true,
+    path = "/home/joaquin/.local/share/nvim/site/pack/packer/start/nvim-cursorline",
+    url = "https://github.com/yamatsum/nvim-cursorline"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
@@ -210,11 +235,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/joaquin/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
-  },
-  vim = {
-    loaded = true,
-    path = "/home/joaquin/.local/share/nvim/site/pack/packer/start/vim",
-    url = "https://github.com/dracula/vim"
   },
   ["vim-maximizer"] = {
     loaded = true,

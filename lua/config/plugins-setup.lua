@@ -38,7 +38,8 @@ return packer.startup(function(use)
 	use("nvim-tree/nvim-web-devicons")
 
 	-- Themes:
-	use("dracula/vim")
+	-- use("dracula/vim")
+	use("Mofiqul/dracula.nvim")
 	use("morhetz/gruvbox")
 	use("bluz71/vim-nightfly-guicolors")
 
@@ -98,6 +99,18 @@ return packer.startup(function(use)
 
 	-- Git:
 	use("lewis6991/gitsigns.nvim") -- show line modifications on left hand side
+
+	-- Colorizer:
+	use("norcalli/nvim-colorizer.lua")
+
+	-- Cursor line
+	use("yamatsum/nvim-cursorline")
+
+	-- Smooth scroll
+	use("karb94/neoscroll.nvim")
+
+	-- Improve startup speed
+	use("lewis6991/impatient.nvim")
 
 	if packer_bootstrap then
 		require("packer").sync()
