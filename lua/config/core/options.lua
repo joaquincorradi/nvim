@@ -34,3 +34,4 @@ opt.splitbelow = true
 
 opt.fileencoding = "utf8"
 opt.iskeyword:append("-")
+vim.notify = require("notify")

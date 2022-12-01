@@ -112,6 +112,12 @@ return packer.startup(function(use)
 	-- Improve startup speed
 	use("lewis6991/impatient.nvim")
 
+	-- Bufferline
+	use({ "akinsho/bufferline.nvim", tag = "v3.*" })
+
+	-- Notifications
+	use("rcarriga/nvim-notify")
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end
