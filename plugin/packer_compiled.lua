@@ -124,15 +124,20 @@ _G.packer_plugins = {
     path = "/home/joaquin/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
-  gruvbox = {
+  ["gruvbox.nvim"] = {
     loaded = true,
-    path = "/home/joaquin/.local/share/nvim/site/pack/packer/start/gruvbox",
-    url = "https://github.com/morhetz/gruvbox"
+    path = "/home/joaquin/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
+    url = "https://github.com/ellisonleao/gruvbox.nvim"
   },
   ["impatient.nvim"] = {
     loaded = true,
     path = "/home/joaquin/.local/share/nvim/site/pack/packer/start/impatient.nvim",
     url = "https://github.com/lewis6991/impatient.nvim"
+  },
+  ["indent-blankline.nvim"] = {
+    loaded = true,
+    path = "/home/joaquin/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
+    url = "https://github.com/lukas-reineke/indent-blankline.nvim"
   },
   ["lspkind.nvim"] = {
     loaded = true,
@@ -221,6 +226,11 @@ _G.packer_plugins = {
     path = "/home/joaquin/.local/share/nvim/site/pack/packer/opt/nvim-ts-autotag",
     url = "https://github.com/windwp/nvim-ts-autotag"
   },
+  ["nvim-ts-rainbow"] = {
+    loaded = true,
+    path = "/home/joaquin/.local/share/nvim/site/pack/packer/start/nvim-ts-rainbow",
+    url = "https://github.com/p00f/nvim-ts-rainbow"
+  },
   ["nvim-web-devicons"] = {
     loaded = true,
     path = "/home/joaquin/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
@@ -260,6 +270,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/joaquin/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
     url = "https://github.com/christoomey/vim-tmux-navigator"
+  },
+  ["vim-visual-multi"] = {
+    loaded = true,
+    path = "/home/joaquin/.local/share/nvim/site/pack/packer/start/vim-visual-multi",
+    url = "https://github.com/mg979/vim-visual-multi"
   }
 }
 

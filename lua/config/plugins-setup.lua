@@ -38,9 +38,8 @@ return packer.startup(function(use)
 	use("nvim-tree/nvim-web-devicons")
 
 	-- Themes:
-	-- use("dracula/vim")
 	use("Mofiqul/dracula.nvim")
-	use("morhetz/gruvbox")
+	use("ellisonleao/gruvbox.nvim")
 	use("bluz71/vim-nightfly-guicolors")
 
 	-- Window management:
@@ -117,6 +116,15 @@ return packer.startup(function(use)
 
 	-- Notifications
 	use("rcarriga/nvim-notify")
+
+	-- Indentation guides
+	use("lukas-reineke/indent-blankline.nvim")
+
+	-- Rainbow parentheses
+	use("p00f/nvim-ts-rainbow")
+
+	-- Multiple cursors
+	use("mg979/vim-visual-multi")
 
 	if packer_bootstrap then
 		require("packer").sync()

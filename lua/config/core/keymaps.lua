@@ -9,7 +9,7 @@ local opts = { noremap = true, silent = true }
 -------------------
 
 -- Clear search results:
-keymap.set("n", "<leader>cs", ":nohl<CR>", opts)
+keymap.set("n", "<leader>ch", ":nohl<CR>", opts)
 
 -- Increment/decrement numbers:
 keymap.set("n", "<leader>+", "<C-a>", opts) -- increment

@@ -41,6 +41,7 @@ local config = {
 		component_separators = "",
 		section_separators = "",
 		theme = "dracula-nvim",
+		disabled_filetypes = { "packer", "NvimTree" },
 		-- We are going to use lualine_c an lualine_x as left and
 		-- right section. Both are highlighted by c theme .  So we
 		-- are just setting default looks o statusline
