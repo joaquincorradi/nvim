@@ -43,6 +43,7 @@ mason_null_ls.setup({
 		"shellcheck",
 		"taplo",
 		"vint",
+		"clang-format",
 	},
 	-- auto-install configured formatters & linters (with null-ls)
 	automatic_installation = true,

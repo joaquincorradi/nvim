@@ -40,11 +40,15 @@ lspconfig["bashls"].setup({
 	on_attach = on_attach,
 })
 
-lspconfig["clangd"].setup({
-	capabilities = capabilities,
-	on_attach = on_attach,
-	offsetEncoding = { "utf-8", "utf-16" },
-})
+local capabilitiesc = vim.lsp.protocol.make_client_capabilities()
+capabilitiesc.offsetEncoding = { "utf-16" }
+require("lspconfig").clangd.setup({ capabilities = capabilitiesc })
+
+-- lspconfig["clangd"].setup({
+-- 	capabilities = vim.lsp.protocol.make_client_capabilities(),
+-- 	on_attach = on_attach,
+-- 	offsetEncoding = { "utf-8" },
+-- })
 
 lspconfig["cmake"].setup({
 	capabilities = capabilities,
