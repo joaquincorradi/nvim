@@ -126,6 +126,12 @@ return packer.startup(function(use)
 	-- Multiple cursors
 	use("mg979/vim-visual-multi")
 
+	-- Discord presence
+	use("andweeb/presence.nvim")
+
+	-- Vim motion game
+	use("ThePrimeagen/vim-be-good")
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end
