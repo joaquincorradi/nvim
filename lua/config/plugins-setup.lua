@@ -105,9 +105,6 @@ return packer.startup(function(use)
 	-- Cursor line
 	use("yamatsum/nvim-cursorline")
 
-	-- Smooth scroll
-	use("karb94/neoscroll.nvim")
-
 	-- Improve startup speed
 	use("lewis6991/impatient.nvim")
 
@@ -132,8 +129,9 @@ return packer.startup(function(use)
 	-- Vim motion game
 	use("ThePrimeagen/vim-be-good")
 
-	-- Latex
-	use("lervag/vimtex")
+	-- Terminal integration
+	use("numToStr/FTerm.nvim")
+	use("akinsho/toggleterm.nvim")
 
 	if packer_bootstrap then
 		require("packer").sync()

@@ -51,3 +51,7 @@ keymap.set("n", "<leader>fs", "<cmd>Telescope live_grep<cr>", opts) -- find stri
 keymap.set("n", "<leader>fc", "<cmd>Telescope grep_string<cr>", opts) -- find string under cursor in current working directory
 keymap.set("n", "<leader>fb", "<cmd>Telescope buffers<cr>", opts) -- list open buffers in current neovim instance
 keymap.set("n", "<leader>fh", "<cmd>Telescope help_tags<cr>", opts) -- list available help tags
+
+-- Toggleterm
+keymap.set("n", "<leader>.", ":ToggleTerm<CR>", opts)
+keymap.set("t", "<leader>.", "<C-\\><C-n>:ToggleTerm<CR>", opts)

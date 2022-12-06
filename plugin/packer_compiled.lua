@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/joaquin/.local/share/nvim/site/pack/packer/start/Comment.nvim",
     url = "https://github.com/numToStr/Comment.nvim"
   },
+  ["FTerm.nvim"] = {
+    loaded = true,
+    path = "/home/joaquin/.local/share/nvim/site/pack/packer/start/FTerm.nvim",
+    url = "https://github.com/numToStr/FTerm.nvim"
+  },
   LuaSnip = {
     loaded = true,
     path = "/home/joaquin/.local/share/nvim/site/pack/packer/start/LuaSnip",
@@ -169,11 +174,6 @@ _G.packer_plugins = {
     path = "/home/joaquin/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
-  ["neoscroll.nvim"] = {
-    loaded = true,
-    path = "/home/joaquin/.local/share/nvim/site/pack/packer/start/neoscroll.nvim",
-    url = "https://github.com/karb94/neoscroll.nvim"
-  },
   ["null-ls.nvim"] = {
     loaded = true,
     path = "/home/joaquin/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
@@ -261,6 +261,11 @@ _G.packer_plugins = {
     path = "/home/joaquin/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  ["toggleterm.nvim"] = {
+    loaded = true,
+    path = "/home/joaquin/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
+    url = "https://github.com/akinsho/toggleterm.nvim"
+  },
   ["vim-be-good"] = {
     loaded = true,
     path = "/home/joaquin/.local/share/nvim/site/pack/packer/start/vim-be-good",
@@ -285,11 +290,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/joaquin/.local/share/nvim/site/pack/packer/start/vim-visual-multi",
     url = "https://github.com/mg979/vim-visual-multi"
-  },
-  vimtex = {
-    loaded = true,
-    path = "/home/joaquin/.local/share/nvim/site/pack/packer/start/vimtex",
-    url = "https://github.com/lervag/vimtex"
   }
 }
 
