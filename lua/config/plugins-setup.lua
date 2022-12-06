@@ -132,6 +132,9 @@ return packer.startup(function(use)
 	-- Vim motion game
 	use("ThePrimeagen/vim-be-good")
 
+	-- Latex
+	use("lervag/vimtex")
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end

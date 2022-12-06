@@ -65,6 +65,11 @@ lspconfig["taplo"].setup({
 	on_attach = on_attach,
 })
 
+lspconfig["gopls"].setup({
+	capabilities = capabilities,
+	on_attach = on_attach,
+})
+
 -- Change the Diagnostic symbols in the sign column (gutter)
 local signs = { Error = " ", Warn = " ", Hint = "ﴞ ", Info = " " }
 for type, icon in pairs(signs) do

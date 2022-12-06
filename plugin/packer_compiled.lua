@@ -285,6 +285,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/joaquin/.local/share/nvim/site/pack/packer/start/vim-visual-multi",
     url = "https://github.com/mg979/vim-visual-multi"
+  },
+  vimtex = {
+    loaded = true,
+    path = "/home/joaquin/.local/share/nvim/site/pack/packer/start/vimtex",
+    url = "https://github.com/lervag/vimtex"
   }
 }
 
