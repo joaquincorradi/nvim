@@ -70,6 +70,32 @@ lspconfig["gopls"].setup({
 	on_attach = on_attach,
 })
 
+-- typescript.setup({
+-- 	server = {
+-- 		capabilities = capabilities,
+-- 		on_attach = on_attach,
+-- 	},
+-- })
+
+-- configure css server
+lspconfig["cssls"].setup({
+	capabilities = capabilities,
+	on_attach = on_attach,
+})
+
+-- configure tailwindcss server
+lspconfig["tailwindcss"].setup({
+	capabilities = capabilities,
+	on_attach = on_attach,
+})
+
+-- configure emmet language server
+lspconfig["emmet_ls"].setup({
+	capabilities = capabilities,
+	on_attach = on_attach,
+	filetypes = { "html", "typescriptreact", "javascriptreact", "css", "sass", "scss", "less", "svelte" },
+})
+
 -- Change the Diagnostic symbols in the sign column (gutter)
 local signs = { Error = " ", Warn = " ", Hint = "ﴞ ", Info = " " }
 for type, icon in pairs(signs) do
