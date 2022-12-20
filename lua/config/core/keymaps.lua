@@ -55,3 +55,6 @@ keymap.set("n", "<leader>fh", "<cmd>Telescope help_tags<cr>", opts) -- list avai
 -- Toggleterm
 keymap.set("n", "<leader>.", ":ToggleTerm<CR>", opts)
 keymap.set("t", "<leader>.", "<C-\\><C-n>:ToggleTerm<CR>", opts)
+
+-- Vimtex
+keymap.set("n", "<leader>x", ":w<CR>:VimtexCompile<CR>", opts)

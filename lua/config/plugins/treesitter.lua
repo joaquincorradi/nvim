@@ -26,6 +26,10 @@ treesitter.setup({
 		"cmake",
 		"fish",
 		"toml",
+		"html",
+		"css",
+		"javascript",
+		"latex",
 	},
 	-- auto install above language parsers
 	auto_install = true,

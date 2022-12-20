@@ -10,7 +10,6 @@ vim.opt.termguicolors = true
 
 require("nvim-tree").setup({
 	open_on_setup = true,
-	create_in_closed_folder = true,
 	sort_by = "name",
 	git = {
 		enable = true,

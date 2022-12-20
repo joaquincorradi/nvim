@@ -133,6 +133,9 @@ return packer.startup(function(use)
 	use("numToStr/FTerm.nvim")
 	use("akinsho/toggleterm.nvim")
 
+	-- Latex integration
+	use("lervag/vimtex")
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end
