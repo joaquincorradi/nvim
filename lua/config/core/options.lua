@@ -33,13 +33,12 @@ opt.clipboard:append("unnamedplus")
 opt.splitright = true
 opt.splitbelow = true
 
--- Italic comments
--- vim.api.nvim_set_hl("Comment", { italic = true })
-
 -- Latex
 g.vimtex_view_method = "zathura"
 g.vimtex_compiler_method = "latexrun"
-g.vimtex_quickfix_mode=0
+g.vimtex_quickfix_enabled = 0
+g.vimtex_indent_enabled = 1
+g.tex_flavor = "latex"
 
 opt.fileencoding = "utf8"
 opt.iskeyword:append("-")
