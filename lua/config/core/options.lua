@@ -35,7 +35,7 @@ opt.splitbelow = true
 
 -- Latex
 g.vimtex_view_method = "zathura"
-g.vimtex_compiler_method = "latexrun"
+g.vimtex_compiler_method = "latexmk"
 g.vimtex_quickfix_enabled = 0
 g.vimtex_indent_enabled = 1
 g.tex_flavor = "latex"

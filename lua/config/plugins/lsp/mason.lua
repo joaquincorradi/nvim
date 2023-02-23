@@ -25,7 +25,7 @@ mason_lspconfig.setup({
 		"bashls",
 		"clangd",
 		"cmake",
-		"gopls",
+		-- "gopls",
 		"jsonls",
 		"taplo",
 		"sumneko_lua",
