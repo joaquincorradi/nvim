@@ -28,7 +28,7 @@ mason_lspconfig.setup({
 		-- "gopls",
 		"jsonls",
 		"taplo",
-		"sumneko_lua",
+		"lua_ls",
 		"tsserver",
 		"html",
 		"cssls",
