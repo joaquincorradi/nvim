@@ -33,6 +33,11 @@ opt.clipboard:append("unnamedplus")
 opt.splitright = true
 opt.splitbelow = true
 
+-- Indentation plugin
+vim.opt.list = true
+vim.opt.listchars:append("space:⋅")
+-- vim.opt.listchars:append("eol:↴")
+
 -- Latex
 g.vimtex_view_method = "zathura"
 g.vimtex_compiler_method = "latexrun"
