@@ -31,12 +31,13 @@ keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>", opts) -- toggle split wind
 
 keymap.set("n", "<leader>tc", ":bdelete<CR>", opts) -- close current tab
 keymap.set("n", "<tab>", ":BufferLineCycleNext<CR>", opts) --  go to next tab
--- keymap.set("n", "<tab>p", ":BufferLineCyclePrev<CR>", opts) --  go to previous tab | deleted for delay, need to try betterescape
-keymap.set("n", "<leader>tp", ":BufferLineCyclePrev<CR>", opts) --  go to previous tab
+keymap.set("n", "<S-tab>", ":BufferLineCyclePrev<CR>", opts) --  go to previous tab | deleted for delay, need to try betterescape
+-- keymap.set("n", "<leader>tp", ":BufferLineCyclePrev<CR>", opts) --  go to previous tab
 
 -- Saving:
 keymap.set("n", "<leader>w", ":w<CR>", opts)
 keymap.set("n", "<leader>q", ":q<CR>", opts)
+keymap.set("n", "<leader>wq", ":wq<CR>", opts)
 
 -- Add semicolon and coma at the end
 keymap.set("n", "<leader>;", "$a;<Esc>")

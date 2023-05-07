@@ -29,7 +29,7 @@ local function open_nvim_tree(data)
 end
 
 require("nvim-tree").setup({
-	open_on_setup = true,
+	-- open_on_setup = true,
 	sort_by = "name",
 	git = {
 		enable = true,
