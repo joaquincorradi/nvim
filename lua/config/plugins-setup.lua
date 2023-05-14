@@ -102,6 +102,7 @@ return packer.startup({
 
 		-- Colorizer:
 		use("norcalli/nvim-colorizer.lua")
+		use("brenoprata10/nvim-highlight-colors")
 
 		-- Cursor line
 		use("yamatsum/nvim-cursorline")

@@ -194,6 +194,11 @@ _G.packer_plugins = {
     path = "/home/joaquin/.local/share/nvim/site/pack/packer/start/nvim-cursorline",
     url = "https://github.com/yamatsum/nvim-cursorline"
   },
+  ["nvim-highlight-colors"] = {
+    loaded = true,
+    path = "/home/joaquin/.local/share/nvim/site/pack/packer/start/nvim-highlight-colors",
+    url = "https://github.com/brenoprata10/nvim-highlight-colors"
+  },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "/home/joaquin/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
