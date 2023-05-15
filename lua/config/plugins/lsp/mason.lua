@@ -35,6 +35,7 @@ mason_lspconfig.setup({
 		"tailwindcss",
 		"emmet_ls",
 		"texlab",
+		"rust_analyzer",
 	},
 	-- auto-install configured servers (with lspconfig)
 	automatic_installation = true, -- not the same as ensure_installed
@@ -52,6 +53,7 @@ mason_null_ls.setup({
 		"clang-format",
 		"glint",
 		"eslint_d", -- ts/js linter
+		"rustfmt",
 	},
 	-- auto-install configured formatters & linters (with null-ls)
 	automatic_installation = true,
