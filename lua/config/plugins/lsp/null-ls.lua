@@ -24,6 +24,7 @@ null_ls.setup({
 		formatting.gofmt,
 		formatting.golines,
 		formatting.goimports,
+		formatting.rustfmt,
 		diagnostics.cpplint,
 		diagnostics.eslint_d.with({ -- js/ts linter
 			-- only enable eslint if root has .eslintrc.js (not in youtube nvim video)
